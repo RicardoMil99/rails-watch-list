@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.3'
+# We don’t want to share those secret keys on Github, we can use the dotenv gem for security.
+gem 'dotenv-rails', groups: [:development, :test]
 #
 gem "autoprefixer-rails", "10.2.5"
 #
