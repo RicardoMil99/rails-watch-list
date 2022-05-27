@@ -10,6 +10,8 @@ gem "autoprefixer-rails", "10.2.5"
 gem "font-awesome-sass", "~> 5.15"
 #
 gem "simple_form", github: "heartcombo/simple_form"
+# Cloudinary & Environment
+gem 'cloudinary', '~> 1.16.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6'
 # Use postgresql as the database for Active Record
